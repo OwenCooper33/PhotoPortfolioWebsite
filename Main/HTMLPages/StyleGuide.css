@@ -1,5 +1,11 @@
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87dbde;
+}
+
 .subtitles {
-    width: 250px;
-    text-align: center;
-    background-color: burlywood;
+    width: auto;
+    text-align: left;
 }
