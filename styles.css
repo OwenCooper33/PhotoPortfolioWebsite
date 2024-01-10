@@ -14,7 +14,7 @@ body{
     padding: 2%;
     gap: 5%;
     align-items: center;
-    background-color: #dbf7ff;
+    background-color: #eefaff;
 }
 
 .title {
@@ -166,4 +166,55 @@ a:visited {
 /* Apply styles to links on hover */
 a:hover {
     text-decoration: underline; /* Add underline on hover */
+}
+
+.about-me-description {
+    display: flex;
+}
+
+.about-me-header {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.me-image-box {
+    flex: 1;
+    padding: 3%;
+}
+
+.me-image {
+    width: 100%;
+    height: auto;
+}
+
+.me-text-box {
+    flex: 1;
+    padding: 3%;
+    line-height: 2;
+    background: #eaf8ff;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.image-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
