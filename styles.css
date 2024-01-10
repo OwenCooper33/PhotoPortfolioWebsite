@@ -172,7 +172,7 @@ a:hover {
     display: flex;
 }
 
-.about-me-header {
+.headers {
     display: flex;
     justify-content: center;
     padding: 2%;
