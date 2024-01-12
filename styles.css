@@ -19,7 +19,7 @@ body{
 
 .title {
     text-decoration: none;
-    font-family: "Snell Roundhand";
+    font-family: "Snell Roundhand", sans-serif;
     cursor: pointer;
 }
 
@@ -41,6 +41,7 @@ body{
     height: 400px;
     background: url(images/MenuBackgroundImage.JPG) no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 .about-me-links {
